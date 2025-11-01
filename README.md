@@ -126,4 +126,4 @@ SmartJobMatcher/
 
 **Wejden Trabelsi**  
 📧 trabelsiwejden911@gmail.com  
-🔗 [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+🔗 [LinkedIn]([https://linkedin.com](https://www.linkedin.com/in/trabelsi-wejden-29b847259/)) | [GitHub]([https://github.com)](https://github.com/WejdenTrabelsi).
