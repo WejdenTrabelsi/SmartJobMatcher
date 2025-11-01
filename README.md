@@ -53,38 +53,77 @@ This project demonstrates practical use of **React**, **Node.js**, **Express**, 
 ```bash
 git clone https://github.com/YOUR_USERNAME/smart-job-matcher.git
 cd smart-job-matcher
+```
 
 ### 2️⃣ Install Dependencies
-
-#### 🖥️ Frontend
 ```bash
+# Frontend
 cd smart-job-matcher
 npm install
-#### ⚙️ Backend
-```bash
+
+# Backend
 cd backend
 npm install
+```
 
-3️⃣ Setup Environment Variables
-
-Create a .env file inside the backend folder:
-
+### 3️⃣ Setup Environment Variables
+Create a `.env` file inside the `backend` folder:
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+```
 
-4️⃣ Run the Application
-🚀 Start the Backend Server:
+### 4️⃣ Run the Application
+```bash
+# Start the Backend Server
 cd backend
 npm run dev
 
-💻 Start the Frontend App:
+# Start the Frontend App
 cd ../
 npm run dev
+```
 
+The app will run on:  
+🌐 **Frontend:** http://localhost:5173  
+🧩 **Backend API:** http://localhost:5000
 
-The app will run on:
+---
 
-🌐 Frontend: http://localhost:5173
+## 🧩 Folder Structure
+```
+SmartJobMatcher/
+│
+├── backend/
+│   ├── server.js
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   └── scripts/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── App.jsx
+│
+└── README.md
+```
 
-🧩 Backend API: http://localhost:5000
+---
+
+## 🧠 Future Improvements
+
+- 🤖 Integrate a chatbot assistant for interview prep or skill suggestions  
+- 📝 Add AI-based resume analysis and auto-tagging  
+- 🔔 Implement real-time notifications for new job matches  
+- 📊 Add an admin dashboard for platform analytics  
+
+---
+
+## 👩‍💻 Author
+
+**Wejden Trabelsi**  
+📧 trabelsiwejden911@gmail.com  
+🔗 [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
