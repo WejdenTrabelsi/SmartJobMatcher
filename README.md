@@ -53,3 +53,38 @@ This project demonstrates practical use of **React**, **Node.js**, **Express**, 
 ```bash
 git clone https://github.com/YOUR_USERNAME/smart-job-matcher.git
 cd smart-job-matcher
+
+### 2️⃣ Install Dependencies
+
+#### 🖥️ Frontend
+```bash
+cd smart-job-matcher
+npm install
+#### ⚙️ Backend
+```bash
+cd backend
+npm install
+
+3️⃣ Setup Environment Variables
+
+Create a .env file inside the backend folder:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+4️⃣ Run the Application
+🚀 Start the Backend Server:
+cd backend
+npm run dev
+
+💻 Start the Frontend App:
+cd ../
+npm run dev
+
+
+The app will run on:
+
+🌐 Frontend: http://localhost:5173
+
+🧩 Backend API: http://localhost:5000
