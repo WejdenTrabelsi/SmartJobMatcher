@@ -1,16 +1,55 @@
-# React + Vite
+# 💼 SmartJobMatcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **AI-powered Job & Skill Matching Platform**  
+> Connecting candidates and recruiters through intelligent job recommendations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Overview
 
-## React Compiler
+**SmartJobMatcher** is a full-stack web application that leverages **Natural Language Processing (NLP)** to analyze job descriptions and candidate profiles.  
+It automatically matches candidates with relevant job postings based on their skills, experience, and keywords.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project demonstrates practical use of **React**, **Node.js**, **Express**, and **MongoDB**, combined with **AI-driven text analysis**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 👥 **Dual Authentication:** Separate dashboards for Candidates and Recruiters  
+- 🧠 **AI Matching Engine:** Uses NLP libraries (`natural`, `compromise`) for semantic analysis  
+- 💬 **Smart Job Suggestions:** Recommends the best matches based on skills similarity  
+- 📁 **Resume Upload:** Parses and extracts skills for better profile matching  
+- 🔍 **Advanced Filtering:** Search jobs by title, required skills, or experience level  
+- 🌐 **Full MERN Stack Integration:** Seamless connection between frontend and backend  
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React, Vite, TailwindCSS |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB |
+| **AI/NLP** | Compromise, Natural |
+| **Auth** | JWT, bcryptjs |
+| **File Uploads** | Multer |
+
+---
+
+## 🗄️ Database Structure (MongoDB Collections)
+
+- **users** → candidate & recruiter profiles  
+- **jobs** → job postings with descriptions and requirements  
+- **applications** → links candidates to jobs  
+- **skills** → extracted or suggested skills  
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/smart-job-matcher.git
+cd smart-job-matcher
